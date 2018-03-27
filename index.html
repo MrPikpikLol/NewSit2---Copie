@@ -1,5 +1,4 @@
-
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <head>
   <meta charset="utf-8">
@@ -10,7 +9,6 @@
   <link href="https://fonts.googleapis.com/css?family=Ubuntu:400,500,700" rel="stylesheet">
   <!-- favicon -->
   <link rel="icon" type="image/png" href="ressources/img//favicon.png">
-
   <!-- link css -->
   <!-- bootstrap css -->
   <link rel="stylesheet" type="text/css" href="ressources/css/bootstrap.min.css">
@@ -23,46 +21,37 @@
   <link rel="stylesheet" type="text/css" href="ressources/css/animate.css">
   <!-- mon css -->
   <link rel="stylesheet" type="text/css" href="ressources/css/style.css">
-
 </head>
 <body>
-
-  <!-- header -->
-  <header class="header" id="HOME">
-  <!-- nav bar -->
+<!-- header -->
+<header class="header" id="HOME">
+<!-- nav bar -->
   <nav class="navbar navbar-default navbar-fixed-top">
     <div class="container">
-      <!-- Brand and toggle get grouped for better mobile display -->
      <div class="navbar-header">
-        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#loso-navbar-collapse-1" aria-expanded="false">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar-collapse-1" aria-expanded="false">
           <span class="sr-only">Toggle navigation</span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
         </button>       
       </div>
-      <!-- Collect the nav links, forms, and other content for toggling -->
-      <div class="collapse navbar-collapse" id="loso-navbar-collapse-1">
+      <div class="collapse navbar-collapse" id="navbar-collapse-1">
         <ul class="nav navbar-nav navbar-right">
             <li><a href="#HOME" class="nav-item">ACCEUIL</a></li>           
             <li><a href="#SCREEN" class="nav-item">PHOTOS</a></li>
             <li><a href="#CONTACT" class="nav-item">CONTACT</a></li>
         </ul>
-      </div><!-- /.navbar-collapse -->
-    </div><!-- /.container-fluid -->
+      </div>
+    </div>
   </nav>
+<!-- end nav bar -->
     <div class="header-overlay">
       <div class="container header-container">
         <div class="row">
-          <div class="col-md-12">
-            <!-- logo -->
-          </div>
-        </div>
-        <div class="row">
           <div class="col-md-8">
             <div class="header-text">
-              <h1>Surfin Waves</h1>
-              
+              <h1>Surfin Waves</h1>             
             </div>            
           </div>
           <div class="col-md-3 col-md-offset-1">
@@ -71,7 +60,8 @@
       </div>
     </div>
   </header>
-<!-- screen section -->
+<!-- end header -->
+<!-- photo section -->
 <section class="screen" id="SCREEN">
   <div class="container">
     <div class="row">
@@ -108,50 +98,52 @@
         </div>
       </div>
 </section>
-<!-- contact us-->
-        <section class="contact-us" id="CONTACT">
-            <div class="container">
+<!-- end photo section -->    
+<!-- contact section-->
+<section class="contact-us" id="CONTACT">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-10 col-md-offset-1">
+                <div class="section-title">
+                    <h2>Contactez nous</h2>
+                    <p>Vous avez des question, nous avons des réponses...</p>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- contact form-->
+    <div class="contact-us-form">
+        <div class="container">
+            <div class="form">
                 <div class="row">
-                    <div class="col-md-10 col-md-offset-1">
-                        <div class="section-title">
-                            <h2>Contactez nous</h2>
-                            <p>Vous avez des question, nous avons des réponses...</p>
-                        </div>
+                    <div class="col-md-4">
+                        <input type="text" class="form-control" id="name" placeholder="Nom">
+                        <input type="email" class="form-control" id="email" placeholder="Email">
+                        <input type="text" class="form-control" id="subject" placeholder="Sujet">
+                    </div>
+                    <div class="col-md-8">
+                        <textarea class="form-control" id="message" rows="25" cols="10" placeholder="Inserez votre message"></textarea>
+                        <button type="button" class="btn btn-default submit-btn form-submit">ENVOYER</button>
                     </div>
                 </div>
             </div>
-            <!-- form for the contact us-->
-            <div class="contact-us-form">
-                <div class="container">
-                    <div class="form">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <input type="text" class="form-control" id="name" placeholder="Nom">
-                                <input type="email" class="form-control" id="email" placeholder="Email">
-                                <input type="text" class="form-control" id="subject" placeholder="Sujet">
-                            </div>
-                            <div class="col-md-8">
-                                <textarea class="form-control" id="message" rows="25" cols="10" placeholder="Inserez votre message"></textarea>
-                                <button type="button" class="btn btn-default submit-btn form-submit">ENVOYER</button>
-                            </div>
-                        </div>
-                    </div>
+        </div>
+    </div>
+<!-- social-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <div class="social-icons">
+                    <ul>
+                        <li><a href="https://github.com/MrPikpikLol" target="_blank"><i class="fab fa-github"></i></a></li>
+                        <li><a href="https://twitter.com/mr_pikpik?lang=fr" target="_blank"><i class="fab fa-twitter"></i></a></li>    
+                    </ul>
                 </div>
             </div>
-            <!-- social-->
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12">
-                        <div class="social-icons">
-                            <ul>
-                                <li><a href="https://github.com/MrPikpikLol" target="_blank"><i class="fab fa-github"></i></a></li>
-                                <li><a href="https://twitter.com/mr_pikpik?lang=fr" target="_blank"><i class="fab fa-twitter"></i></a></li>                               
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-          </div>
+        </div>
+    </div>
 </section>
+<!-- end contact section -->    
 <!-- footer section -->
 <footer class="footer">
     <div class="container">
@@ -169,8 +161,9 @@
         </div>
     </div>
 </footer>
+<!-- end footer -->    
 <!-- script -->
-<!-- link js -->
+<!-- font awesome js -->
 <script src="ressources/js/fontawesome-all.min.js"></script>
 <!-- jquerry -->
 <script src="ressources/js/jquery.min.js"></script>
@@ -178,12 +171,12 @@
 <script src="ressources/js/bootstrap.min.js"></script>
 <!-- bx slider js -->
 <script src="ressources/js/jquery.bxslider.min.js"></script>
-<!-- waypoint counter up js -->
+<!-- waypoint js -->
 <script src="ressources/js/jquery.waypoints.min.js"></script>
-<script src="ressources/js/jquery.counterup.min.js"></script>
 <!-- wow js -->
 <script src="ressources/js/wow.min.js"></script>
 <!-- mon javascript -->
 <script src="ressources/js/main.js"></script>
+<!-- end script -->    
 </body>
 </html>
